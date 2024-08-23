@@ -4,7 +4,7 @@ from starlette.requests import Request
 from starlette.responses import HTMLResponse, RedirectResponse
 from starlette.templating import Jinja2Templates
 
-from app.dbfactory import get_db
+from app.service.dbfactory import get_db
 from app.schema.member import NewMember
 from app.service.member import MemberService
 
